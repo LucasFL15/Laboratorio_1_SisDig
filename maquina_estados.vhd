@@ -65,6 +65,7 @@ architecture comportamento of maquina_estados is
                             operacao <= switch;
                             if operacao = '0000' then
                                 estadoAtual <= show_and;
+                                if operacao;
                     
                     when show_and =>
                                 --contador
